@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="swordGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#FFFBF7" stroke="url(#swordGrad)" stroke-width="2"/>
+  
+  <!-- Crossed swords -->
+  <!-- Sword 1 (from top-left to bottom-right) -->
+  <path d="M 30 25 L 35 20 L 40 25 L 50 35 L 65 50 L 60 55 L 50 45 L 40 35 L 30 25 Z" 
+        fill="url(#swordGrad)" opacity="0.9"/>
+  <line x1="35" y1="20" x2="45" y2="30" stroke="#C2410C" stroke-width="1.5"/>
+  
+  <!-- Sword 2 (from top-right to bottom-left) -->
+  <path d="M 70 25 L 65 20 L 60 25 L 50 35 L 35 50 L 40 55 L 50 45 L 60 35 L 70 25 Z" 
+        fill="url(#swordGrad)" opacity="0.9"/>
+  <line x1="65" y1="20" x2="55" y2="30" stroke="#C2410C" stroke-width="1.5"/>
+  
+  <!-- Center intersection highlight -->
+  <circle cx="50" cy="40" r="3" fill="#FDBA74"/>
+</svg>
